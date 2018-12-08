@@ -39,7 +39,7 @@ pipeline {
     NPM_CONFIG_CACHE = '/var/tmp/npm'
     LEIN_HOME = '/var/tmp/lein'
     QT_PATH = '/opt/qt'
-    STATUSIM_APPIMAGE = '/opt/StatusImAppImage.zip'
+    STATUSIM_APPIMAGE = '/opt/StatusImAppImage_20181208.zip'
   }
 
   stages {
