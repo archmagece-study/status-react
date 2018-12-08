@@ -276,7 +276,7 @@ function bundleLinux() {
     # TODO this needs to be fixed: status-react/issues/5378
     if [ -z $STATUSIM_APPIMAGE ]; then
       STATUSIM_APPIMAGE=./StatusImAppImage.zip
-      [ -f $STATUSIM_APPIMAGE ] || wget https://desktop-app-files.ams3.digitaloceanspaces.com/StatusImAppImage_20181113.zip -O StatusImAppImage.zip
+      [ -f $STATUSIM_APPIMAGE ] || wget https://desktop-app-files.ams3.digitaloceanspaces.com/StatusImAppImage_20181208.zip -O StatusImAppImage.zip
     fi
     unzip "$STATUSIM_APPIMAGE" -d .
     rm -rf AppDir
