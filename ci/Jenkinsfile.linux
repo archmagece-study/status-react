@@ -9,7 +9,7 @@ pipeline {
         "-v /dev/fuse:/dev/fuse "+
         "-v /var/tmp/lein:/var/tmp/lein:rw "+
         "-v /var/tmp/npm:/var/tmp/npm:rw "+
-        "-v /opt:/opt:rw,z"
+        "-v /opt/desktop-files:/opt/desktop-files:rw"
       )
     }
   }
